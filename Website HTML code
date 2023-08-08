@@ -48,7 +48,10 @@
             <img src="images/Pic (8).jpg">
             <img src="images/Pic (3).jpg">
             <img src="images/Pic (4).jpg">
-            <!-- Add more images here -->
+            <img src="images/Pic (12).jpg">
+            <img src="images/Pic (11).jpg">
+            <img src="images/Pic (13).jpg">
+            <img src="images/Pic (14).jpg">
         </div>
         <section id="contact">
             <div class="contact">
@@ -60,7 +63,5 @@
 
             </div>
         </section>
-        
-    
 </body>
 </html>
