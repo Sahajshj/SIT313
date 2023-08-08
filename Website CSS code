@@ -1,0 +1,181 @@
+/* Add or modify styles as per your preference */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Change background color as needed */
+}
+
+nav {
+    background-color: #f3f3f8; /* Change to blue (#0000FF) background color */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #0e0e15;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover {
+    transform: scale(2.1); /* Add a subtle zoom effect on hover */
+}
+
+header {
+    background-image: url('images/back.jpg'); /* Set the background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 380px 200px; /* Adjust the padding to increase the height */
+}
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(67, 63, 63, 0.8);
+    padding: 30px 180px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    font-display: rgb(219, 219, 227);
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
+.header-content:hover #header-image {
+    transform: scale(1.1);
+}
+
+.header-content:hover .hover-text {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-size: 48px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+ /* position: absolute; /* Position the h1 element absolutely within the header */
+    bottom: 100%; /* Adjust the distance from the bottom as needed */
+    left: 50%; /* Position the h1 element at the center horizontally */
+   /* transform: translateX(-50%); /* Center the h1 element relative to its container */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background color */
+    padding: 10px 20px; /* Add some padding to the text */
+}
+h2{
+    color: #f0f0f4;
+}
+
+h3{
+    color: #080892;
+}
+
+div{
+    color: #080892;
+}
+
+h1:hover {
+    color: #ffffff; /* Change to your desired hover color */
+}
+
+.profile {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.profile img:hover {
+    transform: scale(1.06); /* Add a subtle zoom effect on hover */
+}
+
+.profile p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #3819a6;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project img:hover {
+    transform: scale(1.6); /* Add a slight zoom effect on hover */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(2.1); /* Add a slight zoom effect on hover */
+}
+
+/* Add this new style to move the navigation to the left */
+nav {
+    text-align: left;
+}
+
+/* Updated styles for contact section */
+.contact {
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-top: 20px;
+}
