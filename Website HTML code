@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sahajpal Singh - Full-Stack Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-content"> 
+                <div class="hover-text"><h2>Hey, I'm Sahjpal Singh</h2></div>
+        </div>
+    </header>
+    
+    <section id="about">
+        <div class="profile">
+            <img src="images/Pic (6).jpg">
+            <p>I'm full stack web developer </p>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="section-title">________________</div>
+        <div class="section-title">This is my previous year project</div>
+        <div class="project">
+            <img src="images/Pic (10).jpg" alt="Project 1">
+            <h3>River Cleaning Robot</h3>
+            <p>RCR is capable in collecting floating debries in the water. It can move on land too. </p>
+    </section>
+
+    <section id="gallery">
+        <div class="section-title">________________</div>
+        <div class="section-title">My Photos</div>
+        <div class="gallery">
+            <img src="images/Pic (6).jpg">
+            <img src="images/Pic (5).jpg">
+            <img src="images/Pic (7).jpg">
+            <img src="images/Pic (9).jpg">
+            <img src="images/Pic (1).jpg">
+            <img src="images/Pic (2).jpg">
+            <img src="images/Pic (8).jpg">
+            <img src="images/Pic (3).jpg">
+            <img src="images/Pic (4).jpg">
+            <!-- Add more images here -->
+        </div>
+        <section id="contact">
+            <div class="contact">
+                <div class="section-title">________________</div>
+        <div class="section-title">Contact</div>
+        <div class="contact info">
+                <p>MOB NO: 8941998996</p>
+                <a href="mailto:sahajshj169@gmail.com">e-mail: sahajshj169@gmail.com </a>
+
+            </div>
+        </section>
+        
+    
+</body>
+</html>
